@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ndoma-Egba Nleyiosowo</title>
+    <link rel="stylesheet" href="style.css">
+    <!--bootstrap css-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6F" crossorigin="anonymous">
+  <!--font awesome-->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+  <!--bootstrap JavaScript-->
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.2/dist/js/bootstrap.bundle.min.js"></script>    
+
+</head>
+<body>
+    <div class="container">
+        <div class="hero-section">
+            <div class="row">
+                <div class="col-md-6">
+                    <h1>Ndoma-Egba Nleyiosowo</h1>
+                    <h3>Full stack developer and UI/UX designer</h3>
+                    <p>I build scalable products with a user first mindset. Here, you can learn more about me, my projects, and how to get in touch.</p>
+                    <p><a href="#about-me">About Me</a><br><p>
+                    <p><a href="#projects">Projects</a><br><p>
+                    <p><a href="#core-services">Core Services</a><br><p>
+                </div>
+                <div class='contact-info'>
+                    <a href="https://www.linkedin.com/in/ndoma-egba-nleyiosowo/" target="_blank" class="external-link" rel="noopener noreferrer"><i class="fab fa-linkedin fa-2x"></i></a>
+                    <a href="https://github.com/NdomaEgba" target="_blank" class="external-link" rel="noopener noreferrer"><i class="fab fa-github fa-2x"></i></a>
+                    <a href="mailto:nleyindomaegba@gmail.com" target="_blank" class="external-link" rel="noopener noreferrer"><i class="fas fa-envelope fa-2x"></i></a>
+                    <a href="https://www.upwork.com/freelancers/~01f7c2f90989921a0e" target="_blank"  class="external-link" rel="noopener noreferrer" aria-label="View my Upwork profile"><i class="fas fa-briefcase fa-2x"></i>
+</a>  
+                </div>
+            </div>
+        </div>
+        <div class="container2">
+            <h2 id="about-me">About Me</h2>
+            <p> "Hi Im Ndoma-Egba Nleyiosowo, currently a Software Engineering student at <a href="https://www.nileuniversity.edu.ng/" target="_blank" class="external-link" rel="noopener noreferrer">
+                Nile University of Nigeria</a>. I’m a developer who doesn't wait for
+                graduation to build the future.I thrive at the intersection of logical backend systems and intuitive frontend 
+                design."</p>
+            <p>"My professional journey is a blend of corporate structure and creative freedom. I’ve sharpened my 
+            technical skills as an intern at the <a href="https://www.ncc.gov.ng/" target="_blank" class="external-link" rel="noopener noreferrer">Nigerian Communications Commission (NCC)</a> handling database queries
+            and UI/UX optimizations while simultaneously building a global freelance presence. 
+            From designing bespoke book covers for authors like <a href="https://www.inkitt.com/terrific1" target="_blank" class="external-link" rel="noopener noreferrer">Terrific1</a> on Inkitt to engineering a custom Word 
+            Processing app from scratch, I bridge the gap between complex code and clean aesthetics. I’m passionate
+             about creating seamless digital experiences that empower users and drive business success."</p>
+            <p>"With a strong foundation in full-stack development and a keen eye for design, 
+                I deliver solutions that are not only technically sound but also visually compelling. I'm committed to
+                 continuous learning and staying ahead of industry trends. Whether you need a robust backend system, a
+                  stunning frontend, or comprehensive UI/UX design, I'm equipped to bring your vision to life with precision
+                   and creativity."</p>
+            <h2 id="projects">Projects</h2>
+            <div class="list">
+                <div class="item">
+                    <div class="slider">
+                        <div class="slides">
+                            <div class="slide">
+                                <img src="images/book_cover1.png" alt="Book Cover 1">
+                            </div>
+                            <div class="slide">
+                                <img src="images/book_cover2.jpg" alt="Book Cover 2">
+                            </div>
+                            <div class="slide">
+                                <img src="images/book_cover3.jpg" alt="Book Cover 3">
+                            </div>
+                        </div>
+                        <button class="prev" onclick="moveSlide(-1)">&#10094;</button>
+                        <button class="next" onclick="moveSlide(1)">&#10095;</button>
+                    </div>
+                    <div class="project-description">
+                        <h3>Project 1: Book Cover Design Series</h3>
+                    <p>I collaborated with international author <a href="https://www.inkitt.com/terrific1" target="_blank" class="external-link" rel="noopener noreferrer">Terrific1</a> to design a cohesive 3-part book cover series, optimized for digital engagement on the <a href="https://www.inkitt.com/" target="_blank" class="external-link" rel="noopener noreferrer">Inkitt platform.</a></p>
+                    <p><strong>Tools Used:</strong> Figma, Canva</p>
+                    <p><strong>Key Features:</strong> Custom typography, mood-driven color palettes, high-resolution design assets</p></div>
+                    
+                </div>
+
+                <div class="item">
+                    <div class="image-container">
+                        <img src="images\design (5).png" alt="E-commerce Platform" style="width: 100%; margin-bottom: 15px;"></div>
+                    <div class="project-description">
+                        <h3>Project 2: E-commerce Platform (In Development)</h3>    
+                    <p>Building a responsive e-commerce solution using XAMPP, Java, and SQL. Currently implementing a product catalog, secure checkout flow, and a custom backend for inventory management.</p>
+                    <p><strong>Tools and Languages:</strong> XAMPP, Java, MySQL, PHP, JavaScript, HTML, CSS</p>
+                    <p><strong>Key Features:</strong> Product catalog, user authentication, secure payment gateway integration, inventory management system, responsive design</p>
+                    </div>
+                </div>  
+
+                <div class="item">
+                   <div class="image-container">
+                        <img src="images\wordly.png" alt="Word Processing App" style="width: 100%; margin-bottom: 15px;"></div>  
+
+                    <div class="project-description">
+                        <h3>Project 3: Custom Word Application</h3>
+                        <p>Engineered a custom Word application from scratch for a school project. Designed the application icon and user interface to ensure a modern, user-friendly experience.</p>
+                    <p><strong>Tools and Languages:</strong> Java, Kotlin, Android Studios, figma, Canva</p>
+                    <p><strong>Key Features:</strong> Text editing capabilities, file management, formatting tools, custom icon design, intuitive UI</p>
+                </div>
+            </div>
+            <h2 id="core-services">Core Services</h2>
+            <div class="list">
+                <div class="item">
+                    <div class="image-container">
+                        <img src="images\design (2).png" alt="Full Stack Web Development" style="width: 100%; margin-bottom: 15px;">
+                    </div>
+                    <div class="service-description">
+                        <h3>Full Stack Web Development</h3>
+                        <p>I build responsive, database-driven web applications from the ground up. From structuring complex SQL queries and JPA backends to crafting seamless HTML/CSS frontends, I ensure your site is as powerful as it is pretty.</p>
+                    </div>
+                </div>
+
+                <div class="item">
+                    <div class="image-container">
+                        <img src="images\design (3).png" alt="UI/UX Design" style="width: 100%; margin-bottom: 15px;">
+                    </div>
+                    <div class="service-description">
+                        <h3>UI/UX Design</h3>
+                        <p>I don't just draw screens; I design experiences. Using Figma, I create high-fidelity, interactive wireframes that solve user problems before a single line of code is written.</p>
+                    </div>
+                </div>
+
+                <div class="item">
+                    <div class="image-container">
+                        <img src="images\design (1).png" alt="Brand and Asset Design" style="width: 100%; margin-bottom: 15px;">
+                    </div>
+                    <div class="service-description">
+                        <h3>Brand and Asset Design</h3>
+                        <p>I design cohesive brand identities and custom assets for digital and print media, ensuring your project has a unique, professional identity.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </div>
+    <!-- //JavaScript for slider functionality -->
+    <script>
+        let currentSlide = 0;
+        const slides = document.querySelectorAll('.slide');
+
+        function moveSlide(direction) {
+            currentSlide += direction;
+            if (currentSlide < 0) {
+                currentSlide = slides.length - 1;
+            } else if (currentSlide >= slides.length) {
+                currentSlide = 0;
+            }
+            updateSlides();
+        }
+
+        function updateSlides() {
+            slides.forEach((slide, index) => {
+                slide.style.display = index === currentSlide ? 'block' : 'none';
+            });
+        }
+
+        // Initialize the slider
+        updateSlides();
+
+        // mouse tracking for dynamic background effect
+        window.addEventListener('mousemove', (e) => {
+        const x = e.clientX + 'px';
+        const y = e.clientY + 'px';
+  
+        // Target the root or the specific element to update variables
+        document.documentElement.style.setProperty('--mouse-x', x);
+        document.documentElement.style.setProperty('--mouse-y', y);
+    });
+    </script>
+
+    
+
+</body>
+</html>
