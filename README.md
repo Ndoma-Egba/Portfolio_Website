@@ -20,8 +20,8 @@ The goal was to create a simple earthy aesthetic that remains functional. I desi
 - Sticky headers for improved section tracking.
 
 ## ⛰️ Key Challenges & Solutions
-- "Making a sub-section- 90% width while maintaining a centered layout for Mobile view."
-- "Had to use Max-width and not just width 😔"
+- **Challenge:** "Making a sub-section- 90% width while maintaining a centered layout for Mobile view."
+- **Solution:** "Had to use Max-width and not just width 😔"
 
 ## 📂 How to Run Locally
 1. Clone the repo: `git clone https://github.com/yourusername/portfolio.git`
