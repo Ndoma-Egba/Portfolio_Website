@@ -36,7 +36,7 @@ html{
     display: flex;
     flex-direction: row;
     
-}
+}   
 .container2{
     max-width: 50%;
     margin: 0 auto;
@@ -71,7 +71,8 @@ html{
     
 }
 .hero-section{
-    width: 40%;     
+    width: 40%;   
+    position:-webkit-sticky;  
     position:sticky;
     height: 100vh;
     top: 0;
@@ -176,6 +177,17 @@ button {
             margin-bottom: 20px;
         height: auto;
     }
+    .container2 h2{
+        position:sticky;
+        position:-webkit-sticky;
+        top: 0;
+        background-color: #A47864;
+        padding: 10px;
+        padding-top: 20px;
+        z-index: 1;
+        border-bottom: #2D2926 solid 1px;
+
+    }
     .container2 {
         width: 100%;
         max-width: 90%;
@@ -188,7 +200,7 @@ button {
         align-items: center;
     }
     .image-container {
-        width: 100%;
+        width: 80%;
     }
 }
 /*Tablet*/
